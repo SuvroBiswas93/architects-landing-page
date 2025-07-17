@@ -337,3 +337,16 @@
     grid-template-columns: repeat(5,1fr);
     filter:grayscale(100%);
 }
+
+/* Footer style */
+
+.footer{
+    width: 1140px;
+    height: 80px;
+    margin: 90px auto;
+    border-radius: 8px;
+    background: rgb(255, 244, 231);
+}
+.footer-paragraph{
+    padding: 30px 300px;
+}
