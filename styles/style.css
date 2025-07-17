@@ -163,7 +163,7 @@
     gap: 10px;
     justify-content: center;
     align-items: center;
-    margin-left: 90.7px;
+    margin-left: 90.5px;
 }
 .feature-img{
     width: 200px;
@@ -206,4 +206,61 @@
     
 }  
 
+/* Different Features Section Style */
+.different-features{
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 1170px;
+    gap: 100px;
+    margin-top: 100px;
+    margin-left: 90.5px;
+} 
+.card-and-title-container,.architect-img{
+    width: 586px;
+    height: 650px;
+}
+.feature-section-title{
+    border-left: 5px solid #FF900E;
+    font-size: 2.2rem;
+    font-weight: 700;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+.feature-section-paragraph{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.feature-card{
+    width: 586px;
+    height: 128px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    background: rgb(255, 255, 255);
+    margin-top: 10px;
+    padding: 20px;
+}
+.card-title{
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.card-paragraph{
+    font-size: 1rem;
+    font-weight: 400;
+}
+.diffrent-features-btn{
+    height: 120px;
+    width: 250px;
+    padding: 20px;
+    margin-left: -60px;
+    margin-top: -80px;
+}
+.experience-span{
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+.architect-img{
+    width: 100%;
+}
 
