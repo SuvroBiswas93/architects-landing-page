@@ -17,7 +17,7 @@
 .flex{
     display: flex;
 }
-.bacground-color{
+.background-color{
     background: rgba(255, 144, 14, 0.1);
 }
 .dark1-color{
@@ -37,6 +37,7 @@
     background: rgb(255, 144, 14);
     font-size: 1rem;
     font-weight: 600;
+    cursor: pointer;
     color:#FFFFFF ;
 }
 
@@ -65,9 +66,6 @@
     font-weight: 500;
     font-size: 1.2rem;
 }
-.banner{
-    margin-top: 40px;
-}
 .banner-content{
     max-width: 850px;
     text-align: center;
@@ -81,7 +79,7 @@
     width: 100%;
 }
 .banner-img{
-    width:950px;
+    width:1050px;
     height: fit-content;
     margin: 0 auto;
 }
@@ -103,23 +101,27 @@
 
 @media screen and (max-width:576px){
     .header-container{
+        display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 400px;
+        width: 100%;           
+        max-width: 100%;        
+        margin: 0 auto;       
+        padding: 20px;        
+        box-sizing: border-box;
     }
     
     .list {
         flex-direction: column;
-        
-        margin-top: 20px;
     }
 
     .list-item {
-        margin: 10px 0; 
+        margin: 5px 0; 
     }
      .banner-content{
         max-width: 300px;
+        padding: 20px;
     }
      .banner-img{
         width: 400px;
@@ -147,10 +149,10 @@
 
 /* Features Section style */
 
-.featues{
+.features{
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 70px;
     width: 1170px;
     margin-top: 100px;
 }
@@ -161,13 +163,46 @@
     gap: 10px;
     justify-content: center;
     align-items: center;
-    margin-left: 150px;
+    margin-left: 90.7px;
 }
 .feature-img{
     width: 200px;
     height: 200px;
     border-radius: 8px;
 }
+.feature-heading {
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+.features-span{
+    color: rgb(255, 144, 14);
+}
+.feature-paragraph{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
 
+/* Add responsive for feature section */
+
+@media screen and (max-width:576px){
+    .features{
+        flex-direction: column;
+        width: 100%;
+        margin-top: 50px;
+    }
+    .teams-img{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 10px;
+    margin-left: 0;
+    }
+    .features-content{
+        text-align: center;
+        padding: 20px;
+    }
+    
+}  
 
 
