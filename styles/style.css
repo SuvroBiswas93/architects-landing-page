@@ -190,13 +190,14 @@
     .features{
         flex-direction: column;
         width: 100%;
+        gap: 30px;
         margin-top: 50px;
     }
     .teams-img{
-    display: grid;
-    grid-template-columns: repeat(1,1fr);
-    gap: 10px;
-    margin-left: 0;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 10px;
+        margin-left: 0;
     }
     .features-content{
         text-align: center;
